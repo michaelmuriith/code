@@ -1,0 +1,23 @@
+
+import numpy as np
+
+class ClinicSimulation:
+    def __init__(self):
+        self.num_in_system = 0
+
+        self.clock = 0.0
+
+        self.t_arrival = self.generate
+        
+    def advance_time(self):
+        pass
+    def handle_arrival_event(self):
+        pass
+    def handle_departure_event(self):
+        pass
+    def handle_interarrival(self):
+        pass
+    def generate_service(self):
+        pass
+
+s = ClinicSimulation()
