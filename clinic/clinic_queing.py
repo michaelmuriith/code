@@ -32,4 +32,4 @@ servers = simpy.Resource(env, capacity=1)
 
 env.process(clinic_run(env, servers))
 
-env.run(until=10)
+env.run(until=350)
