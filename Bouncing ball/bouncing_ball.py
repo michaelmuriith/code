@@ -229,7 +229,7 @@ class Ball:
             self.vel[1] = abs(self.vel[1])
             self.bounce_calculation(1)
         if self.rect.bottom == HEIGHT:
-            # prevents ball from "jittering" when at bottom of screen
+            # prevents ball from shaking when at bottom of screen
             if abs(self.vel[1]) < MINIMUM_HEIGHT:
                 self.vel[1] = 0
 
@@ -268,8 +268,7 @@ class Ball:
         screen.blit(self.image, curr)
 
         pygame.display.flip()
-        # TODO pygame.display.update([old, curr]) - how to get this more efficient version to work?
-
+        # TODO pygame.display.update([old, curr])
 
 if __name__ == '__main__':
     main(sys.argv[1:])
