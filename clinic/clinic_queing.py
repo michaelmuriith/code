@@ -1,3 +1,12 @@
+'''
+    simulation assigment - group woek
+        1. Michael andrew muriithi wanjiru - pa101/g/4705/18
+        2. Mwaniki Moses njuguna - pa101/g/4724/18
+        3. Abdullahi Salah Diis - PA101/G/5395/18
+        4. Kiio Erick - PA101/G/4714/18
+        5. Warugu Brandon - PA101/G/4701/18
+'''
+
 import numpy as np
 import simpy
 
